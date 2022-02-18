@@ -29,7 +29,7 @@
 #home section {
     width: 70%;
     margin-top: 1.5em;
-    font-size: 1.2em;   
+    font-size: 1.2em;
     text-align: center;
 }
 
@@ -53,7 +53,7 @@
     justify-content: center;
     position: absolute;
     right: 3em;
-    background-color: var(--nord0);
+    background-color: var(--nord16);
     padding: 1em;
     padding-bottom: 0.6em;
     border-radius: 0.5em;
@@ -82,7 +82,7 @@
 .social-tooltip {
     visibility: hidden;
     background-color: var(--miku);
-    color: var(--nord5) !important;
+    color: var(--nord4) !important;
     text-align: center;
     line-height: 0.4em;
     padding: 1em;

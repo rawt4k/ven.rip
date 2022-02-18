@@ -63,12 +63,12 @@
     top: 0;
     right: 0;
     margin: 0.5em;
-    fill: var(--nord5);
+    fill: var(--nord4);
     transition: 0.2s fill;
 }
 
 .project-widget-launch:hover {
-    fill: var(--nord13);
+    fill: var(--nord3);
     transition: 0.2s fill;
 }
 
@@ -77,7 +77,7 @@
 }
 
 .project-widget-body {
-    background-color: var(--nord0);
+    background-color: var(--nord16);
     padding: 2em;
     min-height: 50%;
 }
@@ -107,5 +107,14 @@
 }
 
 .black-card {
-  background-color: #1c2333
+  background-color: #131722
 }
+
+.grey-card {
+  background-color: #191a1d
+}
+
+.bley-card {
+  background-color: #130f0f
+}
+

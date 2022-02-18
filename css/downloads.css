@@ -1,0 +1,84 @@
+/* 
+* ventispurr.xyz
+* Copyright (C) 2021 Ventispurr
+ */
+
+#downloads-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 3em;
+}
+
+.downloads-widget {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.downloads-widget-header {
+    display: flex;
+    flex-direction: row;
+    padding: 1.5em;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    /* border: 0.3em solid var(--nord0); /* Commented out because idk if i like it */
+    position: relative;
+}
+
+@media screen and (max-width: 900px) {
+    #downloads-grid {
+        grid-template-columns: minmax(0, 1fr);
+    }
+    .downloads-widget-header {
+        height: auto;
+    }
+}
+
+.downloads-widget-icon {
+    /* border-radius: 50%; */
+    height: 3.5em;
+    width: 3.5em;
+    margin-right: 1em;
+}
+
+.ic-downloads-pc-plugs {
+    height: 4em;
+    width: 4em;
+}
+
+.downloads-widget-title {
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+    justify-content: center;
+}
+
+.downloads-widget-spacer {
+    margin-left: 1.5em;
+}
+
+.downloads-widget-launch {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0.5em;
+    fill: var(--nord5);
+    transition: 0.2s fill;
+}
+
+.downloads-widget-launch:hover {
+    fill: var(--nord13);
+    transition: 0.2s fill;
+}
+
+.downloads-widget-title > h3 {
+    line-height: 1.2em;
+}
+
+.downloads-widget-body {
+    background-color: var(--nord0);
+    padding: 2em;
+    min-height: 50%;
+}
+

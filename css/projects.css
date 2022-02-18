@@ -18,7 +18,7 @@
 .project-widget-header {
     display: flex;
     flex-direction: row;
-    padding: 1.5em;
+    padding: 2em;
     justify-content: center;
     align-items: center;
     height: 20%;
@@ -37,8 +37,8 @@
 
 .project-widget-icon {
     /* border-radius: 50%; */
-    height: 3.5em;
-    width: 3.5em;
+    height: 5em;
+    width: 5em;
     margin-right: 1em;
 }
 
@@ -78,7 +78,7 @@
 
 .project-widget-body {
     background-color: var(--nord16);
-    padding: 2em;
+    padding: 1em;
     min-height: 50%;
 }
 
@@ -117,4 +117,3 @@
 .bley-card {
   background-color: #130f0f
 }
-
